@@ -15,7 +15,7 @@
          in order to see more content)
     */}}
     {{if eq $paginator.PageNumber 1}}
-      {{partial "covers/landing.html" .}}
+      {{partial "covers/paging.html" .}}
     {{else}}
       {{partial "covers/paging.html" .}}
     {{end}}
